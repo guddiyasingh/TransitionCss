@@ -16,14 +16,15 @@
         background-color: aquamarine;
         width: 5vw;
         height: 4vh;
-       transition-property: transform;
+       transition-property:background-color, transform;
        transition-duration: 3s;
-       transition-timing-function: ease-in-out;
+       transition-timing-function: cubic-bezier(0.22, 0.43, 0, 0.99);
        transition-delay:1s ;
     }
     .translate{
 
         transform: translateX(10%) translateY(10%);
+        background-color: blue;
     }
 </style>
 <body>
