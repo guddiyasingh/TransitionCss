@@ -7,7 +7,7 @@
 </head>
 <style>
 .container{
-background-color: azure;
+background-color: rgb(17, 233, 233);
 height: 80vh;
 width: 30vw;
 }
@@ -15,7 +15,26 @@ width: 30vw;
 .box{
     width: 34px;
     height: 45px;
-    background-color: aqua;
+    background-color: rgb(0, 81, 255);
+    animation-name: identifier ;
+    animation-duration:3s ;
+    animation-iteration-count: infinite ;
+    animation-timing-function: cubic-bezier(0,0.5,0.6);
+    animation-delay: 1s;
+    animation-direction: reverse;
+
+}
+
+@keyframes identifier{
+
+    from{
+
+    }
+    to{
+
+        transform: translateX(500px);
+    }
+
 }
 </style>
 <body>
