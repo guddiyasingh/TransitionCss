@@ -23,7 +23,8 @@ width: 30vw;
     animation-delay: 1s;
     animation-direction: reverse;
     animation-play-state: paused; */
-    animation: guddiyakanimation 7s cubic-bezier(0.075, 0.82, 0.165, 1) 2s infinite ;
+    animation: guddiyakanimation 7s cubic-bezier(0.075, 0.82, 0.165, 1) 2s infinite,
+                identifier 3s ease-in-out 3s 1;
 
 
 
@@ -38,7 +39,10 @@ width: 30vw;
        background-color: yellow;
         transform: translateX(500px);
     }
-    @keyframes identifier {
+    
+}
+
+@keyframes identifier {
         
         0%{
             transform: rotate(100deg);
@@ -57,7 +61,6 @@ width: 30vw;
        transform:rotate(500deg);
        }
     }
-}
 </style>
 <body>
     <div class="container">
